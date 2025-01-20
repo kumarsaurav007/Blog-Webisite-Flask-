@@ -1,0 +1,22 @@
+{
+  "params":
+  {
+    "local_server":"True",
+    "local_uri": "mysql://root:@localhost/codingworld",
+    "prod_uri":"mysql://root:@localhost/codingworld",
+    "fb_url":"https://facebook.com/codingworld",
+    "tw_url":"https://twitter.com/codingworld",
+    "gh_url": "https://github.com/codingworld",
+    "blog_title": "TheCodingWorld",
+    "blog_name": "Coding World",
+    "tag_line": "A Blog Liked by Programmers",
+    "gmail-user":"project.demoooo@gmail.com",
+    "gmail-password":"please-put-password-here",
+    "about_text": "Hi my name is Saurav and I created this blog website",
+    "no_of_posts": 3,
+    "login_image":"login.svg",
+    "admin_user":"saurav",
+    "admin_password": "loginnow",
+    "upload_location": "C:\\Users\\Acer\\PycharmProjects\\FlaskProject\\static\\assets\\img"
+  }
+}
