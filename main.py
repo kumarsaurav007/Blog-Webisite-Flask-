@@ -8,8 +8,15 @@ from werkzeug.utils import secure_filename
 from datetime import datetime
 
 
-with open('C:\\Users\\Acer\\PycharmProjects\\FlaskProject\\templates\\config.json', 'r') as c:
-    params = json.load(c)["params"]
+config_path = os.path.join(os.path.dirname(__file__), 'templates', 'config.json')
+
+# Try to open and read the config file
+try:
+    with open(config_path, 'r') as c:
+        params = json.load(c)["params"]
+    print("Config loaded successfully")
+except FileNotFoundError:
+    print(f"Error: {config_path} not found.")
 
 local_server = True
 app = Flask(__name__)
