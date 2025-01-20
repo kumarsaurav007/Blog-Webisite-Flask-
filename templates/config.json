@@ -5,7 +5,7 @@
     //"local_uri": "mysql://root:@localhost/codingworld",
     "local_uri": "mysql://root:@localhost:3306/codingworld",
     //"prod_uri":"mysql://root:@localhost/codingworld",
-    "prod_uri": "mysql://root:@localhost:3306/codingworld"
+    "prod_uri": "mysql://root:@localhost:3306/codingworld",
     "fb_url":"https://facebook.com/codingworld",
     "tw_url":"https://twitter.com/codingworld",
     "gh_url": "https://github.com/codingworld",
