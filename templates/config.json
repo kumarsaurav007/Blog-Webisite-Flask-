@@ -2,7 +2,7 @@
   "params": {
     "local_server": "True",
     "local_uri": "mysql://root:@localhost:3306/codingworld",
-    "prod_uri": "postgresql://root:eRq5zj169WFzs4iG4SKQvKHgdbV7ELOV@dpg-cu75joq3esus73fgei00-a:5432/codingworld",
+    "prod_uri": "postgresql://root:eRq5zj169WFzs4iG4SKQvKHgdbV7ELOV@dpg-cu75joq3esus73fgei00-a.oregon-postgres.render.com/codingworld",
     "fb_url": "https://facebook.com/codingworld",
     "tw_url": "https://twitter.com/codingworld",
     "gh_url": "https://github.com/codingworld",
